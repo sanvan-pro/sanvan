@@ -1,0 +1,34 @@
+{
+  "name": "personal-portfolio-website",
+  "version": "1.0.0",
+  "description": "A modern personal portfolio website for a Solutions Architect with Three.js animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "deploy": "./deploy.sh",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "solutions-architect",
+    "static-website",
+    "s3-hosting",
+    "responsive-design"
+  ],
+  "author": "Solutions Architect",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personal-portfolio.git"
+  },
+  "homepage": "https://your-bucket-name.s3-website-us-east-1.amazonaws.com",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
