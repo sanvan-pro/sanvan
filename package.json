@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio-website",
   "version": "1.0.0",
-  "description": "A modern personal portfolio website for a Solutions Architect with Three.js animations",
+  "description": "SanVan's Portfolio Website",
   "main": "index.html",
   "scripts": {
     "start": "python3 -m http.server 8000",
@@ -18,16 +18,16 @@
     "s3-hosting",
     "responsive-design"
   ],
-  "author": "Solutions Architect",
+  "author": "SanVan",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/personal-portfolio.git"
+    "url": "https://github.com/sanvan-pro/sanvan.git"
   },
-  "homepage": "https://your-bucket-name.s3-website-us-east-1.amazonaws.com",
+  "homepage": "https://sanvan-pro.github.io/sanvan/",
   "engines": {
     "node": ">=14.0.0"
   }
